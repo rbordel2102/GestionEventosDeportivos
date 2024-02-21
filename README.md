@@ -1,8 +1,8 @@
 # GESTION EVENTOS DEPORTIVOS
 
 ## Roberto Borrego Delgado
-## Raquel Ardila Atienza
+## Raquel Ardila Atienza 
 
+### **Descripción del proyecto**
+Descripción del proyecto dada por el Raquel
 
-### **Dsscripcion del proyecto**
-Descripcion del proyecto dada por Raquel
