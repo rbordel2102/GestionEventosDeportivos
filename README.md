@@ -4,5 +4,5 @@
 ## Raquel Ardila Atienza 
 
 ### **Descripción del proyecto**
-Descripción del proyecto dada por el Raquel
+Descripción del proyecto dada por Raquel
 
