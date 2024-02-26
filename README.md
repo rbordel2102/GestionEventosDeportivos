@@ -4,5 +4,6 @@
 ## Raquel Ardila Atienza 
 
 ### **Descripción del proyecto**
-Descripción del proyecto dada por Raquel
+Descripción del proyecto dada por Raquel.
+(Haciendo pruebas antes de empezar el proyecto).
 
