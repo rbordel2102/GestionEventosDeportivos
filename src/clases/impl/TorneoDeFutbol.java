@@ -16,13 +16,13 @@ public class TorneoDeFutbol extends EventoDeportivo {
         ArrayList<Participante> ganadores = new ArrayList<>();
         int maxPuntos = 0; // Inicializar con un valor mínimo
 
-        for (int i = 0; i < equipos.size(); i++) { // Iterar sobre la lista de equipos
-
+        for (int i = 0; i < equipos.size(); i++) {
+            //Esto hay que acabarlo
         }
         return ganadores;
     }
 
-    //Esto hay que acabarlo
+
 
 
     public boolean inscribirEquipo(Equipo equipo) {
