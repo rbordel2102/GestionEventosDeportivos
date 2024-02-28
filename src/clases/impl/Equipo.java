@@ -39,6 +39,25 @@ public class Equipo {
     public void setPuntos(int puntos) {
         this.puntos = puntos;
     }
+    public boolean añadirJugador(Participante jugador) {
+        return jugadores.add(jugador);
+    }
+    public boolean eliminarJugador(Participante jugador) {
+        return jugadores.remove(jugador);
+    }
 
-    // Aun hay que implementar los metodos
+
+    public String toString() {
+        //No está acabado
+    }
+
+    @Override
+    public boolean equals(Object equipo) {
+        //No está acabado
+    }
+
+    public int compareTo(Equipo equipo) {
+        //No está acabado
+    }
+
 }

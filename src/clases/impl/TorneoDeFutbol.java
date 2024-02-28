@@ -13,8 +13,18 @@ public class TorneoDeFutbol extends EventoDeportivo {
 
     @Override
     public ArrayList<Participante> obtenerGanador() {
-        return null;
+        ArrayList<Participante> ganadores = new ArrayList<>();
+        int maxPuntos = 0; // Inicializar con un valor mínimo
+
+        for (int i = 0; i < equipos.size(); i++) { // Iterar sobre la lista de equipos
+
+        }
+        return ganadores;
     }
+
+    //Esto hay que acabarlo
+
+
     public boolean inscribirEquipo(Equipo equipo) {
         if (!equipos.contains(equipo)) { // Verifica si equipo ya está presente en la lista equipos, al tener "!" niega esta evaluación, por lo que la condición se cumple si equipo no está en la lista.
             equipos.add(equipo); // Si el equipo no está inscrito, entonces se añade el equipo al ArrayList.
@@ -23,5 +33,5 @@ public class TorneoDeFutbol extends EventoDeportivo {
         return false; // indica que no se ha añadido ningún equipo al torneo porque ya estaba inscrito
     }
 
-    //Aun quedan cosas por repasar
+    //Repasar bien esta clase completa
 }
