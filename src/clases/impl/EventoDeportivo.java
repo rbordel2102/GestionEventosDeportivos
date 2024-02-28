@@ -50,6 +50,10 @@ public abstract class EventoDeportivo implements Ganador {
             return participantes.add(participante);
         }
 
-        public abstract ArrayList<Participante> obtenerGanador();
+    public abstract ArrayList<Participante> obtenerGanador(); // CReo que esto hay que cambiarlo
+    /*
+    @Override
+    public abstract Participante obtenerGanador();
+     */
 }
 
