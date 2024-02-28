@@ -51,7 +51,7 @@ public class Participante {
     // NO SE HACERLO
     @Override
     public boolean equals(Object participante) { // Sobrescribiendo el método equals()
-        if (participante instanceof Participante) { // verifica si el objeto pasado como argumento es una instancia de la clase Participante.
+        if (participante instanceof Participante) { // verifica si el objeto es una instancia de la clase Participante.
             Participante otroParticipante = (Participante) participante;
             return this.dni.equals(otroParticipante.getDni());// comparamos el DNI del objeto actual con el DNI del otro participante. Si los DNIs son iguales, este método devuelve true.
         }
