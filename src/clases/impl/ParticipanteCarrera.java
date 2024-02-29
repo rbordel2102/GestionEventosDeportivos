@@ -1,5 +1,7 @@
 package clases.impl;
 
+import clases.impl.Participante;
+
 public class ParticipanteCarrera extends Participante {
         private double tiempo;
 

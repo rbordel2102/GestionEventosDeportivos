@@ -1,5 +1,6 @@
 package clases.impl;
 
+import clases.impl.EventoDeportivo;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 

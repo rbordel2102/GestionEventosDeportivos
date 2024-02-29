@@ -1,5 +1,6 @@
 package clases.impl;
 
+
 import java.util.ArrayList;
 
 public class Equipo {
