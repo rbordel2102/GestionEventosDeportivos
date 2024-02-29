@@ -1,3 +1,5 @@
+package clases.impl;
+
 public class Participante {
     private String dni;
     private String nombre;
