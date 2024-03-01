@@ -3,7 +3,7 @@ package proyecto.clases.impl;
 
 import java.util.ArrayList;
 
-public class Equipo {
+public class Equipo implements Comparable{
 
     private String nombre;
     private ArrayList<Participante> jugadores;
@@ -57,9 +57,9 @@ public class Equipo {
         //No está acabado
     }
 
-    @Override
-    public int compareTo(Equipo equipo) {
-        //No está acabado
-    }
 
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }
