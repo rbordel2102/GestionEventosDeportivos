@@ -1,6 +1,6 @@
-package clases.impl;
+package proyecto.clases.impl;
 
-import clases.impl.Participante;
+import proyecto.clases.impl.Participante;
 
 public class ParticipanteCarrera extends Participante {
         private double tiempo;

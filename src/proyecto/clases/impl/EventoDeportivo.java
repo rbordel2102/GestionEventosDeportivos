@@ -1,6 +1,6 @@
-package clases.impl;
+package proyecto.clases.impl;
 
-import clases.api.Ganador;
+import proyecto.clases.api.Ganador;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

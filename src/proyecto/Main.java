@@ -1,9 +1,9 @@
-package clases;
+package proyecto;
 
 import java.time.LocalDateTime;
 
-import clases.impl.ParticipanteCarrera;
-import clases.impl.Carrera;
+import proyecto.clases.impl.ParticipanteCarrera;
+import proyecto.clases.impl.Carrera;
 
 public class Main {
         public static void main(String[] args) {

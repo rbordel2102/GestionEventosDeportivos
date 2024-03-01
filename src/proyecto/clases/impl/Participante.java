@@ -1,4 +1,4 @@
-package clases.impl;
+package proyecto.clases.impl;
 
 public class Participante {
     private String dni;
@@ -50,7 +50,7 @@ public class Participante {
         return "Participante --> " + "dni = " + dni  + ", nombre = " + nombre + ", apellidos = " + apellidos  + ", edad = " + edad;
     }
 
-    // NO SE HACERLO
+
     @Override
     public boolean equals(Object participante) { // Sobrescribiendo el método equals()
         if (participante instanceof Participante) { // verifica si el objeto es una instancia de la clase Participante.

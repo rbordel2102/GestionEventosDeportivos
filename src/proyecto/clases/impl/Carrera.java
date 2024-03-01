@@ -1,6 +1,6 @@
-package clases.impl;
+package proyecto.clases.impl;
 
-import clases.impl.EventoDeportivo;
+import proyecto.clases.impl.EventoDeportivo;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
