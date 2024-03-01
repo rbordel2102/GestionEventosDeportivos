@@ -49,17 +49,25 @@ public class Equipo implements Comparable{
 
     @Override
     public String toString() {
-        //No está acabado
+        //No está hecho
     }
 
     @Override
     public boolean equals(Object equipo) {
-        //No está acabado
-    }
+        if (this == equipo) return true;
+        if (!(equipo instanceof Equipo)) return false;
+        Equipo otroEquipo = (Equipo) equipo;
+        return nombre.equals(otroEquipo.getNombre());
+    } //Hay que repasarlo
+
+
+
 
 
     @Override
-    public int compareTo(Object o) {
-        return 0;
+    public int compareTo(Equipo otroEquipo) {
+        return Integer.compare(this.puntos, otroEquipo.getPuntos());
+        // Devuelve un número entero que indica si el equipo actual tiene más puntos, menos puntos o los mismos puntos que el otro equipo.
     }
+    //Hay que repasarlo
 }
