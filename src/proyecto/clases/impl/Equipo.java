@@ -47,7 +47,7 @@ public class Equipo {
         return jugadores.remove(jugador);
     }
 
-
+    @Override
     public String toString() {
         //No está acabado
     }
@@ -57,6 +57,7 @@ public class Equipo {
         //No está acabado
     }
 
+    @Override
     public int compareTo(Equipo equipo) {
         //No está acabado
     }
