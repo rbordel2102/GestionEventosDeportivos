@@ -3,7 +3,7 @@ package proyecto.clases.impl;
 
 import java.util.ArrayList;
 
-public class Equipo implements Comparable{
+public class Equipo implements Comparable<Equipo>{
 
     private String nombre;
     private ArrayList<Participante> jugadores;
@@ -49,12 +49,12 @@ public class Equipo implements Comparable{
 
     @Override
     public String toString() {
-        //No está hecho
+        return "Equipo --> " + "nombre = " + nombre + ", jugadores = " + jugadores + ", puntos = " + puntos;
     }
 
     @Override
     public boolean equals(Object equipo) {
-        if (this == equipo) return true;
+
         if (!(equipo instanceof Equipo)) return false;
         Equipo otroEquipo = (Equipo) equipo;
         return nombre.equals(otroEquipo.getNombre());
@@ -66,8 +66,8 @@ public class Equipo implements Comparable{
 
     @Override
     public int compareTo(Equipo otroEquipo) {
-        return Integer.compare(this.puntos, otroEquipo.getPuntos());
+        return Integer.compare(this.puntos, otroEquipo.puntos);
         // Devuelve un número entero que indica si el equipo actual tiene más puntos, menos puntos o los mismos puntos que el otro equipo.
     }
-    //Hay que repasarlo
+
 }
