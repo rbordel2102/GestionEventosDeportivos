@@ -13,7 +13,7 @@ public class TorneoDeFutbol extends EventoDeportivo {
     }
 
 
-    //Esto hay que revisarlo
+
     @Override
     public ArrayList<Participante> obtenerGanador() {
         ArrayList<Participante> ganadores = new ArrayList<>();
@@ -32,8 +32,6 @@ public class TorneoDeFutbol extends EventoDeportivo {
         }
         return ganadores;
     }
-
-
 
 
 

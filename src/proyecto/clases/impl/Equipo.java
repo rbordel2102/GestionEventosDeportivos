@@ -40,7 +40,7 @@ public class Equipo implements Comparable<Equipo>{
     public void setPuntos(int puntos) {
         this.puntos = puntos;
     }
-    public boolean añadirJugador(Participante jugador) {
+    public boolean anadirJugador(Participante jugador) {
         return jugadores.add(jugador);
     }
     public boolean eliminarJugador(Participante jugador) {
