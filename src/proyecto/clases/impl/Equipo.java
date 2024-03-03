@@ -54,11 +54,12 @@ public class Equipo implements Comparable<Equipo>{
 
     @Override
     public boolean equals(Object equipo) {
-
-        if (!(equipo instanceof Equipo)) return false;
-        Equipo otroEquipo = (Equipo) equipo;
-        return nombre.equals(otroEquipo.getNombre());
-    } //Hay que repasarlo
+        if (equipo instanceof Equipo) { //Verifica si el equipo es una instancia de la clase Equipo.Si lo es, los compara.
+            Equipo otroEquipo = (Equipo) equipo; //Otro equipo = Nos permite acceder a los métodos y atributos específicos de la clase Equipo
+            return nombre.equals(otroEquipo.getNombre());// Compara los nombres de este equipo, si son iguales, el método devuelve true.
+        }
+        return false;
+    }
 
 
 
