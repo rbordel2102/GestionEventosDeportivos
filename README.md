@@ -15,15 +15,15 @@ Además, se puede mostrar información detallada de los eventos, de los particip
 ## **Sistema de Clases/Herencia/Interfaces Implementadas**
 El proyecto está estructurado de la siguiente manera
 
-Una Interface:
+**Una Interface:**
         Llamada -> 'Ganador': Define el método 'obtenerGanador()' para determinar al ganador de un evento deportivo.
 
-Clases:
-    La clase 'Participante': Representa a un participante en un evento deportivo.
-    La clase 'ParticipanteCarrera': Representa a un participante en una carrera, esta clase hereda de 'Participante'.
-    La clase 'EventoDeportivo': Es una clase abstracta que representa un evento deportivo genérico, implementa la interfaz 'Ganador'.
-    La clase 'Carrera': Representa una carrera, esta clase hereda de 'EventoDeportivo'.
-    La clase 'TorneoDeFutbol': Representa un torneo de fútbol, esta clase hereda también de 'EventoDeportivo'.
-    La clase 'Equipo': Representa un equipo deportivo, se implementa de la interfaz 'Comparable'.
+**Clases:**
+La clase 'Participante'-> Representa a un participante en un evento deportivo.
+La clase 'ParticipanteCarrera'-> Representa a un participante en una carrera, esta clase hereda de 'Participante'.
+La clase 'EventoDeportivo'-> Es una clase abstracta que representa un evento deportivo genérico, implementa la interfaz 'Ganador'.
+La clase 'Carrera'-> Representa una carrera, esta clase hereda de 'EventoDeportivo'.
+La clase 'TorneoDeFutbol'-> Representa un torneo de fútbol, esta clase hereda también de 'EventoDeportivo'.
+La clase 'Equipo'-> Representa un equipo deportivo, se implementa de la interfaz 'Comparable'.
 
 
