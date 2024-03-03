@@ -13,8 +13,6 @@ public class Carrera extends EventoDeportivo {
     }
 
 
-
-
     @Override
     public ArrayList<Participante> obtenerGanador() {
         ArrayList<Participante> ganadores = new ArrayList<>();
@@ -34,8 +32,6 @@ public class Carrera extends EventoDeportivo {
         }
         return ganadores;
     }
-
-
 
 
 

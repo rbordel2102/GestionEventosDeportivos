@@ -20,6 +20,6 @@ public class ParticipanteCarrera extends Participante {
 
         @Override
         public String toString() {
-            return "Participante de la carrera -->"+ super.toString() + ", tiempo = " + tiempo;
+            return "Participante de la carrera --> "+ super.toString() + ", tiempo = " + tiempo;
         }
 }

@@ -47,7 +47,7 @@ public class Participante {
 
     @Override
     public String toString() {
-        return "Participante --> " + "dni = " + dni  + ", nombre = " + nombre + ", apellidos = " + apellidos  + ", edad = " + edad;
+        return "Participante --> " + "dni = " + dni  + ", nombre = " + nombre + ", apellidos = " + apellidos  + ", edad = " + edad+"\n";
     }
 
 

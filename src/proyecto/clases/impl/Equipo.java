@@ -62,9 +62,6 @@ public class Equipo implements Comparable<Equipo>{
     }
 
 
-
-
-
     @Override
     public int compareTo(Equipo otroEquipo) {
         return Integer.compare(this.puntos, otroEquipo.puntos);

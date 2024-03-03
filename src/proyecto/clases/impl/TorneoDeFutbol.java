@@ -35,8 +35,6 @@ public class TorneoDeFutbol extends EventoDeportivo {
 
 
 
-
-
     public boolean inscribirEquipo(Equipo equipo) {
         if (!equipos.contains(equipo)) { // Verifica si equipo ya está presente en la lista equipos, al tener "!" niega esta evaluación, por lo que la condición se cumple si equipo no está en la lista.
             equipos.add(equipo); // Si el equipo no está inscrito, entonces se añade el equipo al ArrayList.

@@ -79,6 +79,10 @@ public class Main {
                 System.out.println(jugador5.toString());
                 System.out.println(jugador6.toString());
 
+                System.out.println("Información de los equipos:");
+                System.out.println(equipo1.toString());
+                System.out.println(equipo2.toString());
+
                 // Determinar y mostrar el ganador de cada evento
                 System.out.println("Ganador de la Carrera:");
                 System.out.println(carrera.obtenerGanador());
