@@ -26,20 +26,7 @@ public class Main {
                 ParticipanteCarrera participante3 = new ParticipanteCarrera("56689420P", "Guille", "Suarez Bohorquez", 25, 1170.0);
                 ParticipanteCarrera participante4 = new ParticipanteCarrera("23487089B", "Becky", "Puerto Martin", 31, 1410.0);
 
-                // Crear equipos
-                Equipo equipo1 = new Equipo("Real Madrid");
-                Equipo equipo2 = new Equipo("Barcelona");
-
-                // Inscribir participantes y equipos
-                carrera.inscribirParticipante(participante1);
-                carrera.inscribirParticipante(participante2);
-                carrera.inscribirParticipante(participante3);
-                carrera.inscribirParticipante(participante4);
-
-                torneoFutbol.inscribirEquipo(equipo1);
-                torneoFutbol.inscribirEquipo(equipo2);
-
-                // Añadir y eliminar jugadores de equipos
+                //Crear jugadores
                 Participante jugador1 = new Participante("20105481T", "Oliver ", "Atom",21);
                 Participante jugador2 = new Participante("50217785F", "Marc", "Lenders",23);
                 Participante jugador3 = new Participante("21507780L", "Benji", "Price",24);
@@ -47,13 +34,19 @@ public class Main {
                 Participante jugador5 = new Participante("03199225C", "James", "Derrick",26);
                 Participante jugador6 = new Participante("70202415D", "Jason", "Derrick",26);
 
+                // Crear equipos
+                Equipo equipo1 = new Equipo("Real Madrid");
+                Equipo equipo2 = new Equipo("Barcelona");
 
+                // Inscribir participantes
+                carrera.inscribirParticipante(participante1);
+                carrera.inscribirParticipante(participante2);
+                carrera.inscribirParticipante(participante3);
+                carrera.inscribirParticipante(participante4);
 
-                if (equipo1.anadirJugador(jugador1)) {
-                        System.out.println("Jugador añadido al equipo 1 correctamente.");
-                } else {
-                        System.out.println("No se pudo añadir el jugador al equipo 1.");
-                }
+                //Inscribir equipos
+                torneoFutbol.inscribirEquipo(equipo1);
+                torneoFutbol.inscribirEquipo(equipo2);
 
 
 
@@ -69,15 +62,9 @@ public class Main {
                 listaDeEquipos.add(equipo1);
                 listaDeEquipos.add(equipo2);
 
-                // Inscribir participantes y equipos
-                carrera.inscribirParticipante(participante1);
-                carrera.inscribirParticipante(participante2);
-                carrera.inscribirParticipante(participante3);
-                carrera.inscribirParticipante(participante4);
 
-                torneoFutbol.inscribirEquipo(equipo1);
-                torneoFutbol.inscribirEquipo(equipo2);
 
+                // Añadir y eliminar jugadores de equipos
                 int opcion = 0;
                 do {
                         System.out.println("GESTIÓN DE EQUIPOS:");
