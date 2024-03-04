@@ -26,6 +26,7 @@ public class Main {
                 ParticipanteCarrera participante3 = new ParticipanteCarrera("56689420P", "Guille", "Suarez Bohorquez", 25, 1170.0);
                 ParticipanteCarrera participante4 = new ParticipanteCarrera("23487089B", "Becky", "Puerto Martin", 31, 1410.0);
 
+
                 //Crear jugadores
                 Participante jugador1 = new Participante("20105481T", "Oliver ", "Atom",21);
                 Participante jugador2 = new Participante("50217785F", "Marc", "Lenders",23);
@@ -36,15 +37,16 @@ public class Main {
 
                 // Crear equipos
                 Equipo equipo1 = new Equipo("Real Madrid");
+                equipo1.setPuntos(10);
                 Equipo equipo2 = new Equipo("Barcelona");
+                equipo2.setPuntos(9);
 
-                // Inscribir participantes
+                // Inscribir participantes y equipos
                 carrera.inscribirParticipante(participante1);
                 carrera.inscribirParticipante(participante2);
                 carrera.inscribirParticipante(participante3);
                 carrera.inscribirParticipante(participante4);
 
-                //Inscribir equipos
                 torneoFutbol.inscribirEquipo(equipo1);
                 torneoFutbol.inscribirEquipo(equipo2);
 
@@ -176,16 +178,13 @@ public class Main {
 
                 // Método para ordenar los equipos por puntuación de mayor a menor
                 System.out.println("Lista de equipos ordenados por puntuación:");
-                ArrayList<Equipo> equiposOrdenados = new ArrayList<>();
-                for (int i = 0; i < equiposOrdenados.size(); i++) {
-                        double ordenacionPorPuntos = 0.0;
-                        if(ordenacionPorPuntos > equiposOrdenados.get(i).getPuntos()){
-                                System.out.println(equiposOrdenados.toString());
-                        }
-
+                        if (equipo1.compareTo(equipo2) > 0) {
+                                System.out.println("El Real Madrid tiene más puntos que el Barcelona");
+                        } else if (equipo1.compareTo(equipo2) < 0) {
+                                System.out.println("El Barcelona tiene más puntos que el Real Madrid");
+                        } else {
+                                System.out.println("Tienen los mismos puntos");
                 }
-
-
 
         }
 }
