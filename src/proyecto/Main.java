@@ -1,6 +1,7 @@
 package proyecto;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 import proyecto.clases.impl.*;
 
@@ -42,6 +43,7 @@ public class Main {
                 Participante jugador4 = new Participante("70200725N", "Tom", "Baker",21);
                 Participante jugador5 = new Participante("03199225C", "James", "Derrick",26);
                 Participante jugador6 = new Participante("70202415D", "Jason", "Derrick",26);
+
 
                 if (equipo1.anadirJugador(jugador1)) {
                         System.out.println("Jugador añadido al equipo 1 correctamente.");
@@ -90,11 +92,17 @@ public class Main {
                 System.out.println("Ganador del Torneo de Fútbol:");
                 System.out.println(torneoFutbol.obtenerGanador());
 
-                // Mostrar la lista de equipos de mayor puntuación a menor puntuación
-
 
                 // Método para ordenar los equipos por puntuación de mayor a menor
+                System.out.println("Lista de equipos ordenados por puntuación:");
+                ArrayList<Equipo> equiposOrdenados = new ArrayList<>();
+                for (int i = 0; i < equiposOrdenados.size(); i++) {
+                        double ordenacionPorPuntos = 0.0;
+                        if(ordenacionPorPuntos > equiposOrdenados.get(i).getPuntos()){
+                                System.out.println(equiposOrdenados.toString());
+                        }
 
+                }
 
 
         }
