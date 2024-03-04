@@ -28,7 +28,9 @@ public class Main {
 
                 // Crear equipos
                 Equipo equipo1 = new Equipo("Real Madrid");
+                equipo1.setPuntos(10);
                 Equipo equipo2 = new Equipo("Barcelona");
+                equipo2.setPuntos(9);
 
                 // Inscribir participantes y equipos
                 carrera.inscribirParticipante(participante1);
@@ -46,15 +48,6 @@ public class Main {
                 Participante jugador4 = new Participante("70200725N", "Tom", "Baker",21);
                 Participante jugador5 = new Participante("03199225C", "James", "Derrick",26);
                 Participante jugador6 = new Participante("70202415D", "Jason", "Derrick",26);
-
-
-
-                if (equipo1.anadirJugador(jugador1)) {
-                        System.out.println("Jugador añadido al equipo 1 correctamente.");
-                } else {
-                        System.out.println("No se pudo añadir el jugador al equipo 1.");
-                }
-
 
 
                 // Añadir participantes a la lista de jugadores
@@ -189,16 +182,13 @@ public class Main {
 
                 // Método para ordenar los equipos por puntuación de mayor a menor
                 System.out.println("Lista de equipos ordenados por puntuación:");
-                ArrayList<Equipo> equiposOrdenados = new ArrayList<>();
-                for (int i = 0; i < equiposOrdenados.size(); i++) {
-                        double ordenacionPorPuntos = 0.0;
-                        if(ordenacionPorPuntos > equiposOrdenados.get(i).getPuntos()){
-                                System.out.println(equiposOrdenados.toString());
-                        }
-
+                        if (equipo1.compareTo(equipo2) > 0) {
+                                System.out.println("El Real Madrid tiene más puntos que el Barcelona");
+                        } else if (equipo1.compareTo(equipo2) < 0) {
+                                System.out.println("El Barcelona tiene más puntos que el Real Madrid");
+                        } else {
+                                System.out.println("Tienen los mismos puntos");
                 }
-
-
 
         }
 }

@@ -16,7 +16,7 @@ public class Carrera extends EventoDeportivo {
     @Override
     public ArrayList<Participante> obtenerGanador() {
         ArrayList<Participante> ganadores = new ArrayList<>();
-        double menorTiempo = 0.0; // Inicializamos con 0.0
+        double menorTiempo = 100000.0; // Inicializamos con 100000.0
 
         for (int i = 0; i < participantes.size(); i++) { // Bucle for que recorre la lista de participantes.
             Participante participante = participantes.get(i); // Obtenemos el participante en la posición i
