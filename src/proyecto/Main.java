@@ -80,7 +80,7 @@ public class Main {
 
                 int opcion = 0;
                 do {
-                        System.out.println("Menú de gestión de equipos:");
+                        System.out.println("GESTIÓN DE EQUIPOS:");
                         System.out.println("1. Añadir jugador a equipo");
                         System.out.println("2. Eliminar jugador de equipo");
                         System.out.println("3. Salir");
